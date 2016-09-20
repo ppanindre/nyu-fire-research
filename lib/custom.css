@@ -1,0 +1,120 @@
+#department, #controlPanel, #score_container, #score_container_title, #clock_container, #clock_container_title, #notes_section, #PRESURV_quest, #PRESURV_block, #PRETEST_quest, #PRETEST_block, #POSTSURV_quest, #POSTSURV_block, #POSTTEST_quest, #POSTTEST_block {
+ opacity : 1 !important;
+ background-color: transparent !important;
+}
+textarea{
+	resize:none;
+}
+#logo{
+	position: absolute;
+    bottom: 0px;
+    color: #fff;
+    background: url('../icons/FireLogo.png');
+    width: 100px;
+    height: 89px;
+    left: 5px;
+}
+#score_container{
+	color: #fff;
+	font-size:16px;
+	text-align:center;
+	margin-left: 40px;
+	left: 460px;
+	top: 655px;
+}
+#score_container_title{
+	color: #fff;
+	text-align:center;
+	margin-left: 40px;
+	left:450px;
+	top:675px;
+}
+#clock_container{
+	color: #fff;
+	font-size:20px;
+	text-align:center;
+	margin-left: 10px;
+}
+#clock_container_title{
+	color: #fff;
+	text-align:center;
+	margin-left: 10px;
+}
+.playBtn{
+    background: url('../icons/play.png');
+    display: none;
+}
+.pauseBtn{
+    background: url('../icons/pause.png');
+}
+.rewindBtn{
+    background: url('../icons/rewind.png');
+}
+.forwardBtn{
+    background: url('../icons/forward.png');
+}
+.mailBtn{
+    background: url('../icons/mail.png');
+}
+.faqBtn{
+    background: url('../icons/faq.png');
+}
+.refreshBtn{
+	margin-left: 48px;
+    background: url('../icons/refresh.png');
+}
+.printBtn{
+    background: url('../icons/print.png');
+}
+.controlBtn{
+    width: 48px;
+    height: 48px;
+    border: 0px;
+	background-size: 100%;
+	margin-left: 40px;
+}
+.controlDiv{
+	position: absolute;
+    right: 20px;
+    top: 20px;
+}
+#toc{
+	height: 410px !important;
+}
+#tocFooter{
+	display: none;
+}
+#tocContent{
+	height: 400px !important;
+}
+#totalscore{
+	color:white;
+	text-align:center;
+}
+#notes_section div{
+	font-family: 'Arial';
+	font-size: 14px;
+	color: rgb(76, 76, 76);
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: 10px;
+}	
+#my_notes{	
+	font-family: 'Arial';
+    font-size: 14px;
+    width: 225px;
+    height: 110px;
+}
+#my_notes_email{	
+	font-family: 'Arial';
+    font-size: 14px;
+    width: 225px;
+    height: 30px;
+}
+#email_notes{
+	width: 80px;
+    height: 25px;
+    font-size: 14px;
+    font-family: 'Arial';
+    margin-top: 5px;
+}
