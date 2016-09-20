@@ -2,7 +2,7 @@
 
 # This code is invoked when a new user registers into the system
 
-$config = include('config.php');
+$config = include('../../config.php');
 $servername = $config['host'];
 $username = $config['username'];
 $password = $config['password'];

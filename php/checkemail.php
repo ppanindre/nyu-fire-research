@@ -1,5 +1,5 @@
 <?php
-$config = include('config.php');
+$config = include('../../config.php');
 $servername = $config['host'];
 $username = $config['username'];
 $password = $config['password'];
