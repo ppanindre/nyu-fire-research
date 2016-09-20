@@ -58,7 +58,7 @@ function initializeCP()
 			lCpExit();
 		};
 	}
-	
+
 	cpInit();
 	initialized = true;
 }
@@ -77,10 +77,10 @@ function initializeCP()
 				document.write("The content you are trying to view is not supported in the current Document Mode of Internet Explorer. Change the Document Mode to Internet Explorer 9 Standards and try to view the content again.<br>To change the Document Mode, press F12, click Document Mode: <current mode>, and then select Internet Explorer 9 Standards.");
 				return;
 			}
-			window.addEventListener("load",function() 
+			window.addEventListener("load",function()
 			{
-				setTimeout(function() 
-				{					
+				setTimeout(function()
+				{
 					var script = document.createElement('script');
 					script.type = 'text/javascript';
 					script.src = 'assets/js/CPXHRLoader.js';
@@ -114,6 +114,8 @@ function initializeCP()
 					var interv = setInterval(function(){
 						try{
 							cp.playMovie();
+                $('#gestureIcon').hide();
+		            $('#expandIcon').hide();
 							clearInterval(interv);
 						}catch(e){
 							console.info(e);
@@ -122,7 +124,7 @@ function initializeCP()
 				},1);
 			},false);
 		})();
-		
+
 </script>
 <noscript style="text-align:center;font-size:24px;">Enable Javascript support in the browser.</noscript>
 </body>
