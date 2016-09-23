@@ -2,3 +2,5 @@
 config.php
 dashboard/.DS_Store
 dashboard/config.php
+dashboard/superadmin*
+dashboard/php/superadmin*
