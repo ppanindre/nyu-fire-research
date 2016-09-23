@@ -1,0 +1,131 @@
+[{
+    "question": "1)Which statement about size-up at a wind-driven high-rise fire is incorrect?",
+    "options": [
+        "a)In a building with scissor-type stairs, the apartment and stairway layout should be surveyed on the floor below the fire",
+        "b)Size-up should include whether duplex apartments are present",
+        "c)Length, size, and configuration of the public hallways are part of the size-up",
+        "d)Checking the layout of the apartment below the fire apartment will be beneficial if possible",
+        "e)The number of apartments per floor is a factor in size-up"
+    ]
+}, {
+    "question": "2)Which of the following ventilation profiles would indicate a wind-driven fire?<br><br><br>1. Flames lapping out of the top half of the window, auto exposing the apartment above<br>2. Heavy smoke leaving the window and immediately moving vertically<br>3. Fire venting sideways out of a window<br>4. Fire visible in an apartment, but not venting<br>5. Nothing visible from the exterior",
+    "options": [
+        "a)1,2",
+        "b)1,3",
+        "c)3,5",
+        "d)1,4",
+        "e)3,4"
+    ]
+}, {
+    "question": "3)Where should wind conditions be assessed to determine whether wind will be a factor at a fire?",
+    "options": [
+        "a)Based on the weather report received at the start of the tour",
+        "b)The floor above the fire, assessed by the “floor above” team",
+        "c)The street level upon arrival",
+        "d)Fire visible in an apartment, but not venting",
+        "e)During response"
+    ]
+}, {
+    "question": "4)Which of the following describes a correct way to control a 'flow path'?",
+    "options": [
+        "a)Closing the door to the fire apartment and the stairways on the fire floor",
+        "b)Opening as many doors as possible will give multiple outlets for the fire,removing the flow path",
+        "c)There is no way for members on scene to control a flow path",
+        "d)Early ventilation be a high priority",
+        "e)None of the above"
+    ]
+}, {
+    "question": "5)Which statement properly describes the movement of smoke and heat at a fire in a building?",
+    "options": [
+        "a)Smoke and heat always rise in the building",
+        "b)Smoke and heat always move to the exterior of the building",
+        "c)Smoke and heat always move from a higher pressure zone to a lower pressure zone",
+        "d)Smoke and heat movement is not predictable"
+    ]
+}, {
+    "question": "6)Which of the following statements about wind blowing into a fire apartment window is incorrect?",
+    "options": [
+        "a)If the outside temperature is below freezing, the wind will cool the fire, reducing the danger to firefighters",
+        "b)The wind is pressurizing the fire area",
+        "c)The wind may over-pressurize the fire area, causing flames to occasionally vent out the window",
+        "d)The situation may require alternative strategies and tactics in order to extinguish the fire"
+    ]
+}, {
+    "question": "7)When presented with wind blowing into a vented fire apartment window and the need to commence operations on the fire floor, which option is the best choice?",
+    "options": [
+        "a)Deploy a wind control device (WCD) over the open window",
+        "b)Wait for the wind to die down",
+        "c)Vent the remaining windows in the fire apartment from above",
+        "d)Begin normal firefighting operations",
+        "e)None of the above"
+    ]
+}, {
+    "question": "8)Which statement about the fireproof curtain (wind control device) is correct?",
+    "options": [
+        "a)The curtain is composed of material designed not to burn",
+        "b)There are ropes attached to all 4 corners",
+        "c)The curtain is approximately 6’ x 8’",
+        "d)All of the above are correct",
+        "e)None of the above are correct"
+    ]
+}, {
+    "question": "9)Which of the following statements about deploying the fireproof curtain (wind control device) is correct?",
+    "options": [
+        "a)Two firefighters are required to carry the curtain",
+        "b)The member must fully vent the window above with the 6’ hook",
+        "c)The member must have his or her face piece on when deploying the curtain,  and should not lean out of the window",
+        "d)All of the above",
+        "e)None of the above"
+    ]
+}, {
+    "question": "10)Which statement about positive pressure ventilation is correct?",
+    "options": [
+        "a)It uses the same concept as the SCBA face piece: the higher pressure inside the face piece does not allow contaminants to enter",
+        "b)The goal is to make the stairwell a higher pressure zone than the fire",
+        "c)It can be used to remove smoke from a stairwell",
+        "d)All of the above"
+    ]
+}, {
+    "question": "11)When properly employed, positive pressure ventilation will result in which of the following?",
+    "options": [
+        "a)Increased visibility in the stairwell",
+        "b)Increased heat in the stairwell",
+        "c)Toxic smoke in the stairwell",
+        "d)All of the above",
+        "e)None of the above"
+    ]
+}, {
+    "question": "12)What is the proper angle for the positive pressure ventilation (PPV) fan to be set at?",
+    "options": [
+        "a)45 degrees",
+        "b)80 degrees",
+        "c)90 degrees",
+        "d)100 degrees",
+        "e)None of the above"
+    ]
+}, {
+    "question": "13)What is the main advantage of using positive pressure ventilation (PPV) fan(s) to pressurize the attack stairway?",
+    "options": [
+        "a)PPV eliminates wind from entering the apartment",
+        "b)Fleeing occupants are comforted by the flow of air as they exit",
+        "c)PPV increases visibility and reduces temperatures in the stairwell",
+        "d)PPV draws the fire to the stairway",
+        "e)None of the above"
+    ]
+}, {
+    "question": "14)Which of the following statements regarding the use of the high-rise nozzle is correct?",
+    "options": [
+        "a)The high-rise nozzle should only be used as a last resort after all other options have been exhausted",
+        "b)The high-rise nozzle must be hooked into the window on the fire floor from below",
+        "c)If no spotter is present, the officer should utilize the sound the stream is making to help determine proper placement and direction of the stream",
+        "d)The proper pressure to supply the nozzle is 50 psi at the standpipe outlet"
+    ]
+}, {
+    "question": "15)Which of the following statements about using the high-rise nozzle is correct?",
+    "options": [
+        "a)The preferred spray is a fog pattern into the bottom of the window",
+        "b)The stream should be deflected against the spandrel wall for optimal extinguishment",
+        "c)The stream should be directed off the ceiling of the fire apartment",
+        "d)The stream will have to be operated for 15 minutes to 30 minutes to have any noticeable effect on the fire"
+    ]
+}]

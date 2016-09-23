@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <title>Query Portal</title>
+
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/dashboard.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/dataTables.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                <img class="navbar-brand goback" style="padding:0px" src="images/FireLogo.png" /><a class="navbar-brand goback">ALIVE Query Portal</a>
+            </div>
+            <!--         <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <input type="text" class="form-control" placeholder="Search...">
+          </form>
+        </div> -->
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!--             <div class="col-sm-3 col-md-2 sidebar">
+                Search:
+                <div>
+                    <select class="selectpicker" title="Select a module" data-width="fit">
+            <option>WDHR</option>
+            <option>Lumber</option>
+          </select>
+                </div>
+                <label>Select date range</label>
+
+                <div id="reportrange" class="pull-right" style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc; width: 100%">
+                    <i class="glyphicon glyphicon-calendar fa fa-calendar"></i>&nbsp;
+                    <span></span> <b class="caret"></b>
+                </div>
+                <label>OR</label>
+                <div>
+                    <input type="text" placeholder="Unique ID" name="uniqueid"></input>
+                </div>
+                <label>OR</label>
+                <div>
+                    <input type="text" placeholder="Email ID" name="emailid"></input>
+                </div>
+                <button>Get Scores</button>
+            </div> -->
+            <div class="col-sm-12  col-md-12  main">
+                <h3 class="page-header">Fire Department of the City of New York</h3>
+
+                <div id="modulePage">
+
+                    <!--                 <div class="row">
+
+                    <div id="module1" style="border-radius: 150px; height: 150px; width: 150px;" class="col-md-6 well">
+                        <p>Module 1</p>
+                    </div>
+                    <div id="module2" style="border-radius: 150px; height: 150px; width: 150px;" class="col-md-6 well">
+                        <p>Module 2</p>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div id="module3" style="border-radius: 150px; height: 150px; width: 150px;" class="col-md-6 well">
+                        <p>Module 3</p>
+                    </div>
+                    <div id="module4" style="border-radius: 150px; height: 150px; width: 150px;" class="col-md-6 well">
+                        <p>Module 4</p>
+                    </div>
+                </div> -->
+
+                    <div class="row placeholders">
+                        <div class="col-xs-6 col-sm-6 placeholder">
+                            <img id="module1" src="images/module1.png" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+                            <h4>Modern Fire Dynamics</h4>
+                            <span class="text-muted">Something else</span>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 placeholder">
+                            <img id="module2" src="images/module2.png" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+                            <h4>Fires in Lightweight Structures</h4>
+                            <span class="text-muted">Something else</span>
+                        </div>
+                    </div>
+                    <div class="row placeholders">
+                        <div class="col-xs-6 col-sm-6 placeholder">
+                            <img id="module3" src="images/module3.png" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+                            <h4>Wind-Driven High-Rise Fires</h4>
+                            <span class="text-muted">Something else</span>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 placeholder">
+                            <img id="module4" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+                            <h4>Module 4</h4>
+                            <span class="text-muted">Something else</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- ************* -->
+                <!-- MODULE DETAIL -->
+                <!-- ************* -->
+                <div id="moduleDetail" hidden>
+                    <!-- <button id="backToSelectModule">Back</button> -->
+                    <!--                     <ul class="nav nav-tabs feed-tab">
+                        <li >
+                            <a data-toggle="tab" href="#pba">
+                  Performance-based Analysis
+                  </a>
+                        </li>
+                        <li class="active">
+                            <a data-toggle="tab" href="#qba">
+                  Question-based Analysis
+                  </a>
+                        </li>
+                    </ul> -->
+                    <!-- Performance-based Analysis -->
+                    <!-- <div class="tab-content "> -->
+                    <!-- <div id="pba" class="tab-pane fade in active well  ">
+                            <p>This feature allows you to analyze the effectiveness of training based on the performance(s) in the ALIVE knowledge tests</p>
+
+
+
+                        </div> -->
+                    <!-- Question-based Analysis -->
+                    <!-- <div id="qba" class="tab-pane fade in">
+                            <p>This feature allows you to analyze the effectiveness of training based on responses to every question in ALIVE knowledge tests and surveys</p>
+ -->
+
+
+
+                    <div class="row placeholders">
+                        <div class="col-xs-6 col-sm-6 col-md-3 placeholder">
+                            <!-- <img id="preSurveyBtn" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail"> -->
+                            <div id="radar1" style="height:300px"></div>
+                            <!-- <canvas id="preSurveyCanvas" width="200" height="200">
+                            <h4>Pre Survey</h4>
+                            <span class="text-muted">Something else</span> -->
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-3 placeholder">
+                            <!-- <img id="postSurveyBtn" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">-->
+                            <div id="radar2" style="height:300px"></div>
+                            <!-- <canvas id="postSurveyCanvas" width="200" height="200">
+                            <h4>Post Survey</h4>
+                            <span class="text-muted">Something else</span> -->
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-3 placeholder">
+                            <!-- <img  id="preTestBtn" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail"> -->
+
+                            <div id="radar3" style="height:300px"></div>
+                            <!--   <canvas id="preTestCanvas" width="200" height="200">
+                            <h4>Pre Test</h4>
+                            <span class="text-muted">Something else</span> -->
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-3 placeholder">
+                            <!-- <img id="postTestBtn" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail"> -->
+                            <div id="radar4" style="height:300px"></div>
+                            <!-- <canvas id="postTestCanvas" width="200" height="200">
+                            <h4>Post Test</h4>
+                            <span class="text-muted">Something else</span> -->
+                        </div>
+
+                    </div>
+
+
+
+                    <!--                             <div class="row">
+                            <div id="preSurveyBtn" style="border-radius: 150px; height: 150px; width: 150px;" class="well">
+                                <p>Pre Survey</p>
+                            </div>
+                            <div id="postSurveyBtn" style="border-radius: 150px; height: 150px; width: 150px;" class="well">
+                                <p>Post Survey</p>
+                            </div>
+
+                            <div id="preTestBtn" style="border-radius: 150px; height: 150px; width: 150px;" class="well">
+                                <p>Pre Test</p>
+                            </div>
+                            <div id="postTestBtn" style="border-radius: 150px; height: 150px; width: 150px;" class="well">
+                                <p>Post Test</p>
+                            </div>
+                        </div> -->
+                    <div class="row">
+                        <div class="col-xs-1 col-sm-1">Selected: </div>
+                        <div class="col-xs-10 col-sm-10"><input id="selectedIds" type="textarea" class="form-control" value="None" readonly></div>
+                        <div class="col-xs-1 col-sm-1"><button id="updateChart">Update</button></div>
+                    </div>
+                    </br>
+                    <div>
+                        <table id="example" class="display compact" cellspacing="0" width="100%">
+                            <thead>
+                                <tr>
+                                    <th>User ID</th>
+                                    <th>Email ID</th>
+                                    <th>Date of Completion</th>
+                                    <th>Pre Test</th>
+                                    <th>Post Test</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+
+
+                    <div id="jsGrid"></div>
+                    <div><button id="downloadReport">Download Report</button></div>
+                    <div id="chartArea">
+                        <!-- <div class="col-xs-4 col-sm-2 placeholder"> -->
+                            <!-- <img id="postTestBtn" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail"> -->
+                            <div id="radar5"></div>
+                            <!-- <canvas id="postTestCanvas" width="200" height="200">
+                            <h4>Post Test</h4>
+                            <span class="text-muted">Something else</span> -->
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- container fluid END -->
+    <!--         </div>
+    </div> -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/holder.min.js"></script>
+    <script src="js/Chart.js"></script> -->
+    <!-- <script type="text/javascript" src="js/jsgrid.min.js"></script> -->
+    <script type="text/javascript" src="js/master.js"></script>
+    <script type="text/javascript" src="js/report.js"></script>
+    <script type="text/javascript" src="js/moment.min.js"></script>
+    <script type="text/javascript" src="js/dataTables.min.js"></script>
+    <script type="text/javascript" src="js/dataTables.select.min.js"></script>
+    <script type="text/javascript" src="js/dataTables.buttons.min.js"></script>
+    <script type="text/javascript" src="js/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="js/simple-excel.js"></script>
+    <!--   <script src="js/Underscore.js"></script>
+    <script src="js/require.js"></script>
+    <script src="exceljs-master/excel.js"></script>
+
+
+    <script type="text/javascript" src="../../moment.min.js"></script>
+    <script type="text/javascript" src="../../daterangepicker.js"></script>
+    <script type="text/javascript" src="../../bootstrap-select.min.js"></script>
+-->
+
+
+    <script type="text/javascript">
+        var module_1_users = [];
+        var module_2_users = [];
+        var module_3_users = [];
+
+        // console.log("Getting Users");
+        $.post('php/getusers.php',function(response) {
+            console.log(response);
+            if (response.charAt(response.length - 3) == ',') {
+                response = response.substr(0, response.length - 3) + "]";
+            }
+            var response = JSON.parse(response);
+            // console.log(response);
+            $.each(response, function(key, val) {
+                val["last_login"] = moment(val.last_login).format('DD-MMM-YYYY');
+                val["pretest"] = (val["pretest"] / 15 * 100).toFixed(2);;
+                val["posttest"] = (val["posttest"] / 15 * 100).toFixed(2);;
+                switch (parseInt(val.module_id)) {
+                    case 1:
+                        module_1_users.push(val);
+                        break;
+                    case 2:
+                        module_2_users.push(val);
+                        break;
+                    case 3:
+                        module_3_users.push(val);
+                        break;
+                }
+            });
+        });
+
+
+        // $.getJSON( "data/users.json", function( d ) {
+        //   $.each( d.data, function( key, val ) {
+        //     val["performance"] = ((val.posttest - val.pretest)/val.pretest *100).toFixed(2);
+        //     val["last_login"] = moment(val.last_login).format('DD-MMM-YYYY');
+        //     switch(val.module_id){
+        //         case 1: module_1_users["data"].push(val); break;
+        //         case 2: module_2_users["data"].push(val); break;
+        //         case 3: module_3_users["data"].push(val); break;
+        //     }
+        //     // items.push( "<li id='" + key + "'>" + val + "</li>" );
+        //   });
+        // });
+
+        var SURV_data = [];
+        $.getJSON("data/survey.json", function(data) {
+            SURV_data = data;
+        });
+
+
+        var PRETEST_data = [];
+        $.getJSON("data/pretest.json", function(data) {
+            PRETEST_data = data;
+        });
+    </script>
+</body>
+
+</html>
