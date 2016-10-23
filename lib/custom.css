@@ -98,14 +98,14 @@ textarea{
 	font-weight: bold;
 	margin-left: 10px;
 	margin-top: 10px;
-}	
-#my_notes{	
+}
+#my_notes{
 	font-family: 'Arial';
     font-size: 14px;
     width: 225px;
     height: 110px;
 }
-#my_notes_email{	
+#my_notes_email{
 	font-family: 'Arial';
     font-size: 14px;
     width: 225px;
@@ -117,4 +117,8 @@ textarea{
     font-size: 14px;
     font-family: 'Arial';
     margin-top: 5px;
+}
+
+#faqmodal span{
+  margin-left: 30px;
 }
