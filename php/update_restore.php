@@ -10,6 +10,7 @@ $dbname = $config['dbname'];
 
 $session_id = $_POST['session_id'];
 $restore_slide = $_POST['restore_slide'];
+$progress = $_POST['progress'];
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -19,7 +20,7 @@ if ($conn->connect_error) {
 }
 
 
-$update_restore_slide= "UPDATE login set restore_slide=$restore_slide, last_login=NOW() where session_id=$session_id";
+$update_restore_slide= "UPDATE login set restore_slide=$restore_slide, last_login=NOW(), progress=$progress where session_id=$session_id";
 if ($conn->query($update_restore_slide) === TRUE) {
    # echo "New record created successfully";
 } else {

@@ -18,7 +18,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$check_user_exists_sql = "SELECT X.session_id,restore_slide,department,email,unique_id,user_id,
+$check_user_exists_sql = "SELECT X.session_id,restore_slide,department,email,unique_id,user_id,progress,
 SUM(score)as score FROM quiz q
 RIGHT OUTER JOIN(
 SELECT * FROM login l
@@ -35,6 +35,7 @@ if ($result->num_rows > 0) {
 			echo '{	"status": true,
 					"session_id": "'. $row['session_id']. '",
 					"restore_slide": "' . $row['restore_slide'] . '",
+					"progress": "' . $row['progress'] . '",
 					"department": "' . $row['department'] . '",
 					"email": "' . $row['email'] .'",
 					"unique_id": "' . $row['unique_id'] .'",
